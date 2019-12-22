@@ -1,0 +1,41 @@
+
+body {
+  width: 480px;
+  margin: auto;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+@media(min-width: 768px) {
+  .a{
+      padding: 38px 0;
+  }
+  .b{
+      padding: 270px 0;
+  }
+  .c ,.d{
+      padding: 95px 0;
+  }
+  .i{
+      padding: 65px 0;
+  }  
+}
+
+
+
+
+.a  {
+  padding: 33px 0;
+}
+.b  {
+  padding: 70px 0;
+}
+.c , .d  {
+  padding: 55px 0;
+}
+    .i {
+      padding: 30px 0;
+    }
+.e , .f , .g , .h  {
+  padding: 120px 0;
+}
